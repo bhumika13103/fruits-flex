@@ -1,0 +1,56 @@
+.container {
+    color: black;
+}
+.container h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3rem;
+}
+.container hr{
+    width: 5%;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#flexbox #all{
+    border-bottom: 4px solid green;
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    gap: 5%;
+    margin: 5%;
+    padding-left: 5%;
+}
+#gallery div{
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#gallery div img{
+    width: 100%;
+    object-fit: fill;
+}
+#gallery div h3{
+    font-weight: lighter;
+    margin-top: 5%;
+}
+#gallery div h2{
+    margin-top: 0px;
+}
